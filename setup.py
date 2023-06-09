@@ -2,21 +2,19 @@ from setuptools import setup
 
 
 setup(
-    name='TabNamesCat',
+    name='tabNamesCat',
     version='0.1.0',
     description='CategorizationTabNames',
     url='https://github.com/Denisalik/TabNamesCat',
     author='Denisalik',
     author_email='schgletovdenis@mail.ru',
-    # license='BSD 2-clause',
-    packages=['model'],
+    license='MIT',
+    packages=['tabNamesCat'],
     install_requires=['scikit-learn>=1.2.2'],
-
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Science/Research',
-        # 'License :: OSI Approved :: BSD License',
-        # 'Operating System :: POSIX :: Linux',
+        'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
