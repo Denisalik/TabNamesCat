@@ -3,14 +3,16 @@ from setuptools import setup
 
 setup(
     name='tabNamesCat',
-    version='0.1.0',
+    version='0.1.4',
     description='CategorizationTabNames',
     url='https://github.com/Denisalik/TabNamesCat',
     author='Denisalik',
     author_email='schgletovdenis@mail.ru',
     license='MIT',
     packages=['tabNamesCat'],
-    install_requires=['scikit-learn>=1.2.2'],
+    package_data={'tabNamesCat': ['./*.pkl']},
+    include_package_data=True,
+    install_requires=['scikit-learn', 'langdetect', 'nltk'],
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Science/Research',

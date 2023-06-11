@@ -1,4 +1,4 @@
-from .main import load_model, map_to_category
+from .main import load_model, get_mappings_to_category, sentence_clean
 
 
 """

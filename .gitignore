@@ -1,2 +1,4 @@
-./build
-./TabNamesCat.egg-info
+build/
+dist/
+tabNamesCat.egg-info/
+.idea/
